@@ -1,6 +1,9 @@
-transformers
-gradio
 git+https://github.com/openai/whisper.git
-jiwer
+numpy
 torch
-whisper
+torchaudio
+tqdm
+ffmpeg-python
+more-itertools
+transformers>=4.19.0
+ffmpeg-python==0.2.0
