@@ -30,7 +30,7 @@ model = whisper.load_model("small")
 
 st.title("OpenAI Whisper ASR Streamlit Web UI")
 
-audio = st.file_uploader("Upload an audio file", type="wav")
+audio = st.file_uploader("Upload an audio file", type="mp3")
 
 if audio is not None:
     # load audio and pad/trim it to fit 30 seconds
